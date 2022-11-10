@@ -1,0 +1,68 @@
+/* arrange the calculator in center*/
+.main{
+  width: fit-content;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 100px;
+}
+/* styling for display */
+input{
+  width: 400px;
+  height: 70px;
+  text-align: right;
+  font-family: monospace;
+  font-size: 3rem;
+  border-radius: 5px; 
+}
+/* styling for the buttons*/
+button{
+  text-align: center;
+  width: 100px;
+  height: 80px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: dimgray;
+  color: white;
+}
+/* used to arrange the grid in a correct formate*/
+.buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: fit-content;
+  height: fit-content;
+}
+/* assigning colors for operations buttons*/
+#btn15{
+  background-color: red;
+  color: white;
+}
+#btn16{
+  background-color: red;
+  color: white;
+}
+#btn19{
+  background-color: red;
+  color: white;
+}
+#btn20{
+  background-color: red;
+  color: white;
+}
+#btn14{
+  background-color: red;
+  color: white;
+}
+#btn13{
+  background-color: red;
+  color: white;
+}
+#btn12{
+  background-color: red;
+  color: white;
+}
+#btn18{
+  background-color: red;
+  color: white;
+}
